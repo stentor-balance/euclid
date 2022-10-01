@@ -1,0 +1,1849 @@
+body{
+   width: auto;
+   height: auto;
+   background: #E5E5E5;
+}
+
+a{
+    text-decoration: none;
+    color: #333333
+}
+
+li{
+    list-style: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus
+{
+	outline: none;
+  }
+
+
+header{
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.331);
+}
+
+.logo{
+    background-image: url(/img/logo.png);
+    position: absolute;
+    width: 224px;
+    height: 72px;
+    left: 75px;
+    top: 14px;
+}
+
+.nav-menu{
+    position: absolute;
+    width: 709px;
+    height: 22px;
+    margin-left: 1028px;
+    margin-top: 42px;  
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;  
+}
+
+.nav-item:first-child {
+    position: absolute;
+    width: 55px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #333333;
+}
+
+.nav-item:nth-child(2){
+    position: absolute;
+    width: 86px;
+    height: 22px;
+    left: 140px;
+    top: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #333333;
+}
+
+.nav-item:nth-child(3){
+    position: absolute;
+    width: 60px;
+    height: 22px;
+    left: 311px;
+    top: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #333333;
+}
+
+.nav-item:nth-child(4){
+    position: absolute;
+    width: 76px;
+    height: 22px;
+    left: 456px;
+    top: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #333333;
+}
+
+.nav-item:nth-child(5){
+    position: absolute;
+    width: 92px;
+    height: 22px;
+    left: 617px;
+    top: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #333333;
+}
+
+.search{
+    background-image: url(../img/search.svg);
+    background-color:  #FFFFFF;
+    background-size: 25px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: 1808px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+}
+
+.burger{
+    display: none;
+}
+
+.menu{
+    z-index: 3;
+    position: absolute;
+    top: 45px;
+    bottom: 0;
+    left: 0;
+    height: 500px;
+    width: 100px;
+    padding: 40px;
+    background-color: white;
+    transition: transform .3s ease-in-out;
+    transform: translateX(-102%);
+    outline: 3px solid black;
+    }
+
+.is-active{
+    z-index: 3;
+    outline: 3px solid black;
+    transition: transform .3s ease-in-out;
+    transform: translateX(0%);
+    }
+
+.swiper-container{
+    z-index: 1;
+    position: relative;
+    width: 1770px;
+    height: 620px;
+    top: 95px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.swiper-slide{
+    background-image: url(/img/low-angle-photo-of-balconies-2462015.jpg);
+}
+
+.content{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.top-text-1{
+    position: absolute;
+    width: 841.76px;
+    height: 159px;
+    margin-left: 78px;
+    margin-top: 103px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70.3742px;
+    line-height: 86px;
+    
+    color: #FFFFFF;
+}
+
+.top-text-2{
+    position: absolute;
+    width: 836.73px;
+    height: 58px;
+    margin-left: 78px;
+    margin-top: 294px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23.4581px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.orange-btn{
+    position: absolute;
+    text-align: center;
+    width: 280.52px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 449px;
+    border: none;
+    background: #FF9900;
+    color: white;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23.4581px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+
+.orange-btn:focus{
+    cursor: pointer;
+    outline: 4px solid red;
+}
+
+.title{
+    position: absolute;
+    width: 235px;
+    height: 70px;
+    left: 77px;
+    top: 721px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    
+    color: #333333;
+}
+
+.middle-text-1{
+    position: absolute;
+    width: 1235px;
+    height: 192px;
+    left: 75px;
+    top: 901px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    
+    color: #333333;
+}
+
+.rectangle{
+    background-image: url(/img/Rectangle.jpg);
+    position: absolute;
+    width: 870px;
+    height: 622px;
+    left: 75px;
+    top: 1137px;
+}
+
+.dark-box{
+    position: absolute;
+    width: 870px;
+    height: 176px;
+    left: 0px;
+    top: 446px;
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.Group-1{
+    display: inline-flex;
+    position: absolute;
+    width: 870px;
+    height: 295px;
+    left: 975px;
+    top: 1139px;
+
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+}
+
+.Group-2{
+    display: inline-flex;
+    position: absolute;
+    width: 870px;
+    height: 295px;
+    left: 975px;
+    top: 1464px;
+
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+}
+
+.Group-1-img {
+
+    width: 178px;
+    height: 137px;
+    margin-left: 63px;
+    margin-top: 71px;
+}
+
+.Group-2-img {
+
+    width: 178px;
+    height: 153px;
+    margin-left: 63px;
+    margin-top: 71px;
+}
+
+.middle-text-2 {
+    position: absolute;
+    width: 497px;
+    height: 90px;
+    margin-left: 54px;
+    margin-top: 44px;
+    
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+}
+
+.group-text {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 67px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.btn-2{
+    margin-left: 627px;
+    margin-top: 58px;
+    padding: 20px 38px 20px 38px;
+    background: none;
+    border: 2px solid orange;
+    color: white;
+}
+
+.btn-2:focus{
+    cursor: pointer;
+    outline: 4px solid burlywood;
+}
+
+.work{
+    position: absolute;
+    width: 320px;
+    height: 651px;
+    top: 1820px;
+    left: 73px;
+}
+
+.title-2{
+    width: 440px;
+    height: 70px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    
+    color: #333333;
+}
+
+ul{
+    padding: 0px;
+}
+
+.step:nth-child(1){
+    position: absolute;
+    width: 51px;
+    height: 17px;
+ 
+    
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FF9900;
+}
+
+.step:nth-child(2){
+    position: absolute;
+    width: 51px;
+    height: 17px;
+    margin-left: 140px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #333333;
+}
+
+.step:nth-child(3){
+    position: absolute;
+    width: 51px;
+    height: 17px;
+    margin-left: 280px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #333333;
+}
+
+
+.step:nth-child(4){
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    margin-left: 420px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #333333;
+}
+
+.lil-title{
+    position: absolute;
+    width: 758px;
+    height: 316px;
+    margin-top: 49px;
+}
+
+.work-text{
+    position: absolute;
+    width: 758px;
+    height: 316px;
+    margin-top: 99px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.work-img{
+    position: absolute;
+    width: 870px;
+    height: 465px;
+    top: 225px;
+    left: 905px;
+}
+
+.btns{
+    margin-top: 480px;
+    display: inline-flex;
+}
+
+.orange-btn-2{
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 175px;
+    height: 60px;
+    border: 0px;
+    background: #FF9900;
+}
+
+.orange-btn-2:focus{
+    cursor: pointer;
+    outline: 4px solid burlywood;
+}
+
+.btn-3{
+    margin-left: 200px;
+
+    padding: 20px 38px 20px 38px;
+    background: none;
+    border: 1px solid black;
+}
+
+.btn-3:focus{
+    cursor: pointer;
+    outline: 4px solid burlywood;
+}
+
+.faq{
+    position: absolute;
+    width: 1766px;
+    height: 669px;
+    left: 77px;
+    top: 2610px;
+}
+
+/* табы */
+
+.tab-content {
+    display: none;
+}
+
+.tab-content-active {
+    display: block;
+}
+
+/* аккордеон */
+
+.ui-accordion .ui-accordion-header {
+    background: none;
+    border: none;
+    color: black;
+}
+
+.ui-state-default{
+    background: none;
+}
+
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+    background-image: url(/img/+х.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    left: 1750px;
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+.ui-icon, .ui-widget-content .ui-icon{
+    background-image: url(/img/+х.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: 25px;
+    left: 1750px;
+}
+
+
+/* ------- */
+
+/* .title-3{
+    background-image: url(/img/line.png);
+    background-size: 1763.01px 1px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    
+    color: #333333;
+}
+
+.glavpunkt{
+    background-image: url(/img/line.png);
+    background-size: 1763.01px 1px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #E5E5E5;
+    border: none;
+}
+
+.punkt{
+    background-image: url(/img/+х.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #E5E5E5;
+    border: none;
+    display: inline-flex;
+    height: 80px;
+    width: 1780px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.podpunkt{
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    
+    
+    color: #333333;
+} */
+
+footer{
+    position: absolute;
+    display: inline-flex;
+    height: 630px;
+    width: 1920px;
+    top: 3380px;
+    left: 0px;
+    
+    background: #222222;
+}
+
+.logo-2{
+    position: absolute;
+    width: 224px;
+    height: 72px;
+    left: 75px;
+    top: 48px;   
+}
+
+.footer-list{
+    position: absolute;
+    width: 317px;
+    height: 233px;
+    left: 75px;
+    top: 125px;
+    line-height: 35px;
+}
+
+.list-link{
+    background: none;
+    border: none;
+    color: #CACACA;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.list-link:hover{
+    color:white
+}
+
+.soc{
+    position: absolute;
+    display: inline-flex;
+    left: 75px;
+    top: 470px;
+}
+
+.soc-item:nth-child(2){
+    margin-left: 85px;
+}
+
+.soc-item:nth-child(3){
+    margin-left: 85px;
+}
+
+.soc-link-1{
+    background-image: url(/img/fb.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+}
+
+.soc-link-2{
+    background-image: url(/img/Vk.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+}
+
+.soc-link-3{
+    background-image: url(/img/instagram.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+}
+
+.center{
+    margin-top: 20px;
+    margin-left: 670px; 
+}
+
+.title-4 {
+    position: absolute;
+    width: 414px;
+    height: 51px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    
+    color: #CACACA;
+}
+
+.form{
+    margin-top: 110px;
+}
+
+.field{
+    position: absolute;
+    background-color: #414141;
+	border-radius: 3px;
+    width: 540px;
+    height: 60px;
+    padding-left: 25px;
+}
+
+.field-2{
+    top: 224px;
+    position: absolute;
+    background-color: #414141;
+	border-radius: 3px;
+    width: 540px;
+    height: 60px;
+	padding-left: 25px;
+}
+
+textarea{
+    background-color: #414141;
+    position: absolute;
+    width: 540px;
+    height: 150px;
+    top: 309px;
+    padding-top: 14px;
+    padding-left: 25px;
+    border: none;
+}
+
+.orange-btn-3{
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    position: absolute;
+    width: 269px;
+    height: 60px;
+    left: 676px;
+    top: 490px;
+    border: none;
+    background: #FF9900;
+    color: white;
+}
+
+.orange-btn-3:focus{
+    cursor: pointer;
+    outline: 4px solid burlywood;
+}
+
+.checkbox{
+    position: absolute;
+    left: 967px;
+    top: 513px;
+    width: 350px;
+}
+
+.check{
+    background-color: black;
+    color: green;
+    width: 14px;
+    height: 14px;
+}
+
+.agreement{  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+}
+
+.right{
+    position: absolute;
+    width: 363px;
+    height: 320px;
+    left: 1482px;
+    top: 126px;
+}
+
+.footer-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.step-btn{
+    border: none;
+    background: none;
+}
+
+.step-btn:hover{
+    color: orange;
+}
+
+/* @media (max-width: 1024px){
+body{
+    height: auto;
+    width: 1024px;
+    }
+
+header{
+    width: 1024px;
+    }
+} */
+
+@media (max-width: 768px){
+
+body{
+    height: auto;
+    width: 768px;
+}
+
+header{
+    z-index: 2;
+    position: absolute;
+    width: 768px;
+    height: 69px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    }
+
+.nav-menu{
+    display: none;
+    }
+
+.logo{
+    background-image: url(/img/logo.png);
+    background-size: 150px 47.35px;
+    position: absolute;
+    width: 150px;
+    height: 47.35px;
+    left: 309px;
+    top: 10px;
+    }
+
+.search{
+    position: absolute;
+    width: 24.17px;
+    height: 25.62px;
+    left: 694px;
+    top: 21px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    }
+
+.search:focus{
+    outline: 3px solid red;
+}
+
+.burger{
+    display: unset;
+    background-image: url(/img/Burger.svg);
+    background-color: white;
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 48px;
+    top: 21px;
+    border: 0px;
+    cursor: pointer;
+    }
+
+/* свайпер */
+
+.swiper-container{
+    position: relative;
+    width: 768px;
+    height: 768px;
+    top: 60px;
+    left: -10px;
+    bottom: 0px;
+}
+
+.swiper-slide{
+    background-image: url(/img/low-angle-photo-of-balconies-2462015.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.list__element{
+    cursor: pointer;
+}
+
+.red{
+    color: red;
+}
+
+.top-text-1{
+    position: absolute;
+    width: 721px;
+    height: 138px;
+    left: 49px;
+    top: 260px;
+    margin: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    }
+
+.top-text-2{
+    position: absolute;
+    width: 658px;
+    height: 48px;
+    left: 49px;
+    top: 416px;
+    margin: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    }
+
+.orange-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 19px 38px;
+    
+    position: absolute;
+    width: 287px;
+    height: 80px;
+    left: 49px;
+    top: 574px;
+    margin: 0px;
+    }
+
+
+
+.title{
+    position: absolute;
+    width: 149px;
+    height: 54px;
+    left: 48px;
+    top: 840px;
+    margin: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    
+    color: #333333;
+    }
+
+.middle-text-1{
+    position: absolute;
+    width: 668px;
+    height: 389px;
+    left: 50px;
+    top: 916px;
+    margin: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    }
+
+.rectangles{
+    display: inline-flex;
+    position: absolute;
+    width: 668px;
+    height: 650px;
+    left: 50px;
+    top: 1354px;
+    }
+
+.rectangle{
+    display: inline-flex;
+    background-size: 668px 650px;
+    position: absolute;
+    width: 668px;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    
+    background: url(/img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    }
+
+.dark-box{
+    background-size: 668px 173px;
+    position: absolute;
+    width: 668px;
+    height: 173px;
+    left: 0px;
+    top: 447px;
+    margin: 0px;
+    }
+
+.middle-text-2{
+    position: absolute;
+    width: 401px;
+    height: 119px;
+    left: 29px;
+    top: 28px;
+    margin: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    
+    color: #FFFFFF;    
+    }
+
+.btn-2{
+    position: absolute;
+    width: 175px;
+    height: 60px;
+    left: 468px;
+    top: 57px;
+    margin: 0px;
+    }
+
+.Group-1{
+    display: inline-flex;
+    position: absolute;
+    width: 668px;
+    height: 235px;
+    left: 0px;
+    top: 700px;
+    margin: 0px;
+    
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+
+
+    }
+
+.Group-2{
+
+    position: absolute;
+    width: 668px;
+    height: 235px;
+    left: 0px;
+    top: 1000px;
+    margin: 0px;
+    
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+    }
+
+.Group-1-img{
+    height: 104px;
+    width: 104px;
+    position: absolute;
+    left: 31px;
+    top: 65px;
+    margin: 0px;
+
+    }
+
+.Group-2-img{
+    height: 104px;
+    width: 104px;
+    position: absolute;
+    left: 31px;
+    top: 65px;
+    margin: 0px;
+
+    }
+
+.group-text{
+    position: absolute;
+    width: 452px;
+    height: 162px;
+    top: 37px;
+    left: 178px;
+    margin: 0px;
+
+    font-size: 16px;
+    line-height: 29px;
+    }
+
+.bottom{
+    position: absolute;
+    width: 674px;
+    height: 974px;
+    left: 0px;
+    top: 812px;
+    margin: 0px;
+        
+    }
+
+.work-text, .lil-title{
+    position: absolute;
+    width: 668px;
+    height: 412px;
+    left: 0px;
+    top: 477px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    }
+
+.lil-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    }
+
+.work-img{
+    position: absolute;
+    width: 668px;
+    height: 284px;
+    left: 0px;
+    top: 200px;
+    }
+
+.btns{
+    position: absolute;
+    top: 430px;
+    }
+
+.faq{
+    position: absolute;
+    width: 678px;
+    height: 679px;
+    top: 2850px;
+    bottom:0px;
+    }
+
+.title-3{
+    background-image: url(/img/line.png);
+    background-size: 668px 1px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.glavpunkt{
+    background-image: url(/img/line.png);
+    background-size: 668px 1px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.punkt{
+    width: 678px;
+    }
+
+.podpunkt{
+    text-align: left;
+    width: 489px;
+    height: 58px;
+    font-size: 20px;
+    }
+
+footer{
+    position: absolute;
+    top: 4300px;
+    width: 768px;
+    height: 816px;
+    left: 0px;
+    }
+
+.left{
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    }
+
+.soc{
+    position: absolute;
+    top: 130px;
+}
+
+.footer-list{
+    display: none;
+}
+
+.right{
+    display: none;
+    }
+
+.center{
+    position: absolute;
+    left: 50px;
+    margin: 0px;
+    }
+
+.orange-btn-3{
+    left: 0px;
+    }
+
+.checkbox{
+    left: 300px;
+    }
+}
+
+@media (max-width: 320px){
+
+
+.middle{
+    max-width: 320px
+    }
+
+.bottom{
+    max-width: 320px
+    }   
+
+.swiper-container{
+    max-width: 320px
+    }
+
+header{
+    position: absolute;
+    max-width: none;
+    width: 320px;
+    height: 45px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    }
+
+.burger{
+    display: unset;
+    background-image: url(/img/Burger.svg);
+    background-size: 25px 19px;
+    position: absolute;
+    height: 19px;
+    width: 25px;
+    left: 280px;
+    top: 13px;
+    border-radius: 0px;    
+    border: 0px;
+    }
+    
+.logo{
+    background-image: url(/img/logo.png);
+    background-size: 97px 31px;
+    height: 31px;
+    width: 97px;
+    left: 15px;
+    top: 7px;
+    border-radius: 0px;    
+    }
+
+.search{
+    display: none;
+}
+
+.swiper-container{
+    position: relative;
+    width: 290px;
+    height: 307px;
+    left: -10px;
+    top: 31px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-text-1{
+    position: absolute;
+    width: 247px;
+    height: 49px;
+    left: 22px;
+    top: 77px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+
+.top-text-2{
+    position: absolute;
+    width: 243px;
+    height: 61px;
+    left: 24px;
+    top: 132px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    }
+
+.orange-btn{
+    position: absolute;
+    text-align: center;
+    width: 162px;
+    height: 40px;
+    left: 79px;
+    top: 227px;
+    
+    background: #FF9900;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+
+.title{
+    position: absolute;
+    width: 149px;
+    height: 54px;
+    left: 15px;
+    top: 346px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #333333;
+    }
+
+
+.middle-text-1{
+    position: absolute;
+    width: 290px;
+    height: 678px;
+    left: 15px;
+    top: 377px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 200% */
+    
+    
+    color: #333333;
+    }
+
+.rectangles{
+    position: absolute;
+    width: 291px;
+    height: 1716px;
+    left: 15px;
+    top: 1060px;
+    }
+
+.rectangle{
+    position: absolute;
+    background-size: 290px 200px;
+    width: 290px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    }
+
+.dark-box{
+    background: none;
+    top: 208px;
+    width: 290px;
+    }
+
+.middle-text-2{
+    position: absolute;
+    width: 291px;
+    height: 143px;
+    left: 0px;
+    top: 0x;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+
+    color: #333333;
+    }
+
+.btn-2{
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 0px;
+    top: 159px;
+    padding: 0px;
+    text-align: center;
+    
+    border: 2px solid #FF9900;
+    box-sizing: border-box;
+    color: #FF9900;
+    }
+
+.Group-1{
+    background: none;
+    border: none;
+    position: absolute;
+    width: 290px;
+    height: 292px;
+    top: 380px;
+    left: 0px;
+    }
+
+.Group-1-img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: 65px;
+    margin: 0px;
+    }
+
+.group-text{
+    position: absolute;
+    width: 290px;
+    height: 192px;
+    left: 0px;
+    top: 120px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #333333;
+    
+    }
+
+.Group-2{
+    background: none;
+    border: none;
+    position: absolute;
+    width: 290px;
+    height: 292px;
+    top: 680px;
+    left: 0px;
+    }
+
+.Group-2-img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 0px;
+    bottom: 65px;
+    margin: 0px;
+}
+
+.work{
+    position: absolute;
+    width: 290px;
+    height: 1056px;
+    left: 15px;
+    top: 1250px;
+    }
+
+.title-2{
+    position: absolute;
+    width: 225px;
+    height: 34px;
+    left: 0px;
+    top: 30px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    }
+
+.steps{
+    position: absolute;
+    width: 290px;
+    height: 17px;
+    left: 0px;
+    top: 100px;
+    }
+    
+.step:nth-child(1){
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #333333;
+}
+
+.step:nth-child(2){
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 80px;
+    margin-left: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.step:nth-child(3){
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 164px;
+    margin-left: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #333333;
+}
+
+
+.step:nth-child(4){
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 248px;
+    margin-left: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #333333;
+}
+
+
+.work-img{
+    position: absolute;
+    width: 290px;
+    height: 160px;
+    left: 0px;
+    top: 150px;
+    }
+
+.lil-title{
+    position: absolute;
+    width: 290px;
+    height: 730px;
+    left: 0px;
+    top: 265px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    }
+
+.work-text{
+    position: absolute;
+    width: 290px;
+    height: 730px;
+    left: 0px;
+    top: 245px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    }
+
+.btns{
+    position: absolute;
+    width: 290px;
+    left: 0px;
+    top: 580px;
+    }
+
+.orange-btn-2{
+    position: absolute;
+    padding: 0px;
+    width: 162px;
+    height: 40px;
+    text-align: center;
+    
+    background: #FF9900;
+    }
+
+.btn-3{
+    position: absolute;
+    padding: 0px;
+    width: 118px;
+    height: 40px;
+    margin: 0px;
+    left: 170px;
+    text-align: center;
+    
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    }
+
+.faq{
+    position: absolute;
+    width: 291px;
+    height: 605px;
+    left: 14px;
+    top: 2400px;
+    }
+
+.title-3{
+    background-image: url(/img/line.png);
+    background-size: 290px 1px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 290px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    }
+
+.glavpunkt{
+    background-size: 290px 1px;
+    width: 320px;
+    height: 110px;
+    }
+
+
+.punkt{
+    background-size: 30px 30px;
+    height: 71px;
+    width: 290px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-items: center right;
+ 
+    }
+
+.podpunkt{
+    width: 250px;
+    height: 110px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 20px;
+    
+    /* or 171% */
+    
+    
+    color: #333333;
+    }
+
+footer{
+    position: absolute;
+    width: 320px;
+    height: 683px;
+    top: 3925px;
+    }
+
+.center{
+    position: absolute;
+    left: 15px;
+    margin: 0px;
+    }
+
+.title-4{
+    position: absolute;
+    width: 215px;
+    height: 26px;
+    left: 0x;
+    top: 20px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    }
+
+.field{
+    position: absolute;
+    width: 265px;
+    height: 60px;
+    left: 0px;
+    top: 89px;
+    }
+
+.field-2{
+    position: absolute;
+    width: 265px;
+    height: 60px;
+    top: 190px;
+    left: 0px;
+    top: 174px;
+    }
+
+textarea{
+    top: 259px;
+    position: absolute;
+    width: 265px;
+    height: 150px;
+    }
+
+.orange-btn-3{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 70px;
+    top: 434px;
+    text-align: center;
+    }
+
+.checkbox{
+    background-image: url(/img/line.png);
+    background-size: 290px 1px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 32px;
+    left: 0px;
+    top: 485px;
+    margin-top: 11px;
+    padding-bottom: 25px;
+    text-align: center;
+    }
+
+.logo-2{
+    position: absolute;
+    width: 131px;
+    height: 42px;
+    left: 95px;
+    top: 23px;
+    }
+
+.soc{
+    position: absolute;
+    width: 131.92px;
+    height: 34.47px;
+    left: 94.08px;
+    top: 60px;
+    }
+
+.soc-item:nth-child(2){
+    margin-left: 54px;
+    }
+
+.soc-item:nth-child(3){
+    margin-left: 54px;
+    }
+
+.soc-link-1{
+    background-size: 34px 34px;
+    }
+
+.soc-link-2{
+    background-size: 34px 34px;
+    }
+
+.soc-link-3{
+    background-size: 34px 34px;
+    }
+
+.bottom{
+    width: 320px;
+    }
+}

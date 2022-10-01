@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>евклид</title>
+    <link rel="stylesheet" href="css/euclid.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- свайпер -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- аккардион -->
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#accordion" ).accordion({classes: {
+          "ui-accordion": "myCustomClassForPlugin"
+      }});
+    } );
+    </script>
+
+    <style>
+    .swiper-wrapper{   
+        overflow-x: hidden;
+}
+    </style>
+
+
+</head>
+<body>
+    <header>
+     <div class="container">
+        <a class="logo"></a>
+        <nav class="nav-menu">
+        <ul>
+            <li class="nav-item"><a href="" class="nav-link" aria-label="О нас">О нас</a></li>
+            <li class="nav-item"><a href="" class="nav-link" aria-label="Продукты">Продукты</a></li>
+            <li class="nav-item"><a href="" class="nav-link" aria-label="Этапы">Этапы</a></li>
+            <li class="nav-item"><a href="" class="nav-link" aria-label="Отзывы">Отзывы</a></li>
+            <li class="nav-item"><a href="" class="nav-link" aria-label="Контакты">Контакты</a></li>
+        </ul>
+        </nav>
+        <button tabindex="0" id="burger" type="submit" class="burger"></button>
+            <div class="menu">
+                <ul>
+                    <li class = "list__element">Пункт</li>
+                    <li class = "list__element">Пункт</li>
+                    <li class = "list__element">Пункт</li>
+                </ul>
+            </div>
+        <button tabindex="1" type="submit" class="search" onclick="alert('1')"></button>
+     </div>
+    </header>
+    <main>
+
+        <section class="swiper-container">
+            <div class="content">
+                <p class="top-text-1">Проектные решения любой сложности</p>
+                <p class="top-text-2">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                <button class="orange-btn" aria-label="Заказать расчёт">Заказать расчёт</button>
+            </div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+
+            </div>
+            <div class="swiper-slide">
+            </div>
+            <div class="swiper-slide">
+
+            </div>
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        </section>
+
+        <section class="middle">
+            <h2 class="title">О нас</h2>
+            <p class="middle-text-1">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип       будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p>
+            <div class="rectangles">
+            <div class="rectangle"><div class="dark-box"><p class="middle-text-2">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p><button class="btn-2"><span class="text-3" aria-label="подробнее">Подробнее</span></button></div></div>
+            <div class="groups">
+                <div class="Group-1"><img src="img/Group-1.svg" alt="" class="Group-1-img"><div class="group-text"><h3>Консультация с широким активом</h3><p>
+                    А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</p></div></div>
+                <div class="Group-2"><img src="img/Group-2.svg" alt=""          class="Group-2-img"><div class="group-text"><h3>В своём стремлении повысить</h3><p>Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества.</p></div></div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom">
+            <div class="work">
+                <h2 class="title-2">Как мы работаем</h2>
+                <ul class="steps">
+                    <il class="step"><button class="step-btn" data-path="one" aria-label="первый шаг">1 шаг</button></il>
+                    <il class="step"><button class="step-btn" data-path="two" aria-label="второй шаг">2 шаг</button></il>
+                    <il class="step"><button class="step-btn" data-path="three" aria-label="третий шаг">3 шаг</button></il>
+                    <il class="step"><button class="step-btn" data-path="four" aria-label="четвёртый шаг">4 шаг</button></il>
+                </ul>
+                <div class="tab-content tab-content-active" data-target="one">
+                    <h3 class="lil-title">Проводим консультацию</h3>
+                    <p class="work-text">Влечет за собой процесс внедрения и модернизации приоритизации разума над
+                        эмоциями. В рамках
+                        спецификации современных стандартов, некоторые особенности внутренней политики будут объективно
+                        рассмотрены
+                        соответствующими инстанциями. А также представители современных социальных резервов,
+                        инициированные исключительно
+                        синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей
+                        картины, реплицированные с
+                        зарубежных источников, современные исследования подвергнуты целой серии независимых
+                        исследований. Кстати,
+                        стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные
+                        особенности картины
+                        в целом, однако конкретные выводы, разумеется, призваны к ответу.</p>
+                    <img src="img/Rectangle-2.jpg" alt="" class="work-img">
+                    <div class="btns"><button class="orange-btn-2" aria-label="подробнее">Подробнее</button>
+                        <button class="btn-3" aria-label="договор">Договор</button>
+                    </div>
+                </div>
+
+                <div class="tab-content" data-target="two">
+                    <h3 class="lil-title">Проводим консультацию 2</h3>
+                    <p class="work-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus quae, minima magni deserunt nulla similique totam dolorem eligendi ratione tempore consequatur nostrum! Delectus error possimus libero. Vero, asperiores ducimus!</p>
+                    <img src="img/Rectangle-2.jpg" alt="" class="work-img">
+                    <div class="btns"><button class="orange-btn-2">Подробнее</button>
+                        <button class="btn-3">Договор</button>
+                    </div>
+                </div>
+                <div class="tab-content" data-target="three">
+                    <h3 class="lil-title">Проводим консультацию 3</h3>
+                    <p class="work-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta nulla, odit corporis, rerum iure iusto in dignissimos ipsum fugiat quisquam perspiciatis enim illo voluptatibus sapiente molestiae dolor placeat itaque.</p>
+                    <img src="img/Rectangle-2.jpg" alt="" class="work-img">
+                    <div class="btns"><button class="orange-btn-2">Подробнее</button>
+                        <button class="btn-3">Договор</button>
+                    </div>
+                </div>
+                <div class="tab-content" data-target="four">
+                    <h3 class="lil-title">Проводим консультацию 4</h3>
+                    <p class="work-text">Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Ведущими, текст родного коварных вопрос но раз маленькая парадигматическая использовало журчит продолжил подпоясал это мир ручеек несколько пунктуация приставка буквоград!
+                    </p>
+                    <img src="img/Rectangle-2.jpg" alt="" class="work-img">
+                    <div class="btns"><button class="orange-btn-2" aria-label="подробнее">Подробнее</button>
+                        <button class="btn-3">Договор</button>
+                    </div>
+                </div>
+            </div>
+            <div class="faq">
+                
+                <h2 class="title-3 ">Часто задаваемые вопросы</h2>
+
+                <div id="accordion">
+                    <h3>Из чего формируется конечная стоимость проекта?</h3>
+                    <div>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem enim magni libero, delectus optio dolorum velit praesentium accusamus consectetur iure qui sint magnam possimus a veniam illo sunt corporis.
+                      </p>
+                    </div>
+                    <h3>У меня есть свой проект. Сможем ли мы его доработать / реализовать?</h3>
+                    <div>
+                      <p>
+                      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                      suscipit faucibus urna.
+                      </p>
+                    </div>
+                    <h3>Я выбираю между разными компаниями. В чём ваше отличие?</h3>
+                    <div>
+                      <p>
+                      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                      </p>
+                      <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                        <li>List item three</li>
+                      </ul>
+                    </div>
+                    <h3>Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</h3>
+                    <div>
+                      <p>
+                      Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                      et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                      mauris vel est.
+                      </p>
+                      <p>
+                      Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                      inceptos himenaeos.
+                      </p>
+                    </div>
+                  </div>
+                
+                <!-- <div class="glavpunkt"><div class="punkt"><div class="podpunkt">Из чего формируется конечная стоимость проекта?</div></div></div>
+                
+                <div class="glavpunkt"><div class="punkt"><div class="podpunkt">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</div></div></div>
+                
+                <div class="glavpunkt"><div class="punkt"><div class="podpunkt">Я выбираю между разными компаниями. В чём ваше отличие?</div></div></div>
+                
+                <div class="glavpunkt"><div class="punkt"><div class="podpunkt">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией? </div></div></div>
+                
+                <div class="glavpunkt"><div class="punkt"><div class="podpunkt">Могу ли я вернуть деньги на каком-либо из этапов работ?</div></div></div> -->
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="left">
+            <img src="/img/logo-2.png" alt="" class="logo-2">
+            <ul class="footer-list">
+                <li><button href="" class="list-link" aria-label="О нас">О нас</button></li>
+                <li><button href="" class="list-link" aria-label="Проекты">Проекты</button></li>
+                <li><button href="" class="list-link" aria-label="Отзывы">Отзывы</button></li>
+                <li><button href="" class="list-link" aria-label="Договор оферты">Договор оферты</button></li>
+                <li><button href="" class="list-link" aria-label="Договор подряда">Договор подряда</button></li>
+                <li><button href="" class="list-link" aria-label="Конфиденсальность">Конфиденсальность</button></li>
+                <li><button href="" class="list-link" aria-label="Партнёрское соглашение">Партнёрское соглашение</button></li>
+            </ul>
+            <ul class="soc">
+                 <li class="soc-item"><a href="" class="soc-link-1"></a></li>
+                 <li class="soc-item"><a href="" class="soc-link-2"></a></li>
+                 <li class="soc-item"><a href="" class="soc-link-3"></a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <h2 class="title-4">Оставить заявку</h2>
+            <form action="" class="form">
+                <input type="text" name="name" placeholder="Фамилия, имя и отчество*" class="field">
+                <input type="text" name="email" placeholder="E-mail*" class="field-2">
+                <textarea name="textarea" cols="30" rows="3"  placeholder="Сообщение"></textarea>
+                <div class="checkbox"><input type="checkbox" class="check"><span class="agreement">Согласен на обработку данных</span></div>
+                <button class="orange-btn-3" aria-label="Отправить данные">Отправить данные</button>
+            </form>
+        </div>
+        <div class="right">
+            <p class="footer-text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов. </p>
+        </div>
+    </footer>
+    
+    <script src="js/tabs.js"></script>
+</body>
+</html>
