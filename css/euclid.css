@@ -192,7 +192,7 @@ header{
     width: 1770px;
     height: 620px;
     top: 95px;
-    left: 0px;
+    left: 60px;
     bottom: 0px;
 }
 
@@ -790,18 +790,40 @@ textarea{
     outline: 4px solid burlywood;
 }
 
-.checkbox{
-    position: absolute;
-    left: 967px;
-    top: 513px;
-    width: 350px;
+label{
+    position: relative;
+    top: 400px;
+    left: 300px;
+    padding: 20px;
+    cursor: pointer;
 }
 
-.check{
-    background-color: black;
-    color: green;
-    width: 14px;
-    height: 14px;
+#check{
+    display: none;
+}
+
+#check + span{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+    border: 1px solid snow;
+    text-align: center;
+    color: snow;
+}
+
+#check + span:before{
+    content: '\2713';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    transition: opacity .3s ease-in-out;
+}
+
+#check:checked + span:before{
+    opacity: 1;
 }
 
 .agreement{  
